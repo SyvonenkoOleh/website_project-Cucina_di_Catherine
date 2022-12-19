@@ -1,0 +1,13 @@
+.container {
+    width: 414px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 1023px) {
+      width: 1023px;
+    }
+    @media screen and (min-width: 1280px) {
+      width: 1280px;
+    }
+  }
